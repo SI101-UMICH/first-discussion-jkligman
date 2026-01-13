@@ -38,6 +38,6 @@ def get_movie(title):
     return data["results"][0]
 
 if __name__ == "__main__":
-    movie = get_movie("Inception")
+    movie = get_movie("Gladiator")
     print(movie)
     print(movie["title"])
